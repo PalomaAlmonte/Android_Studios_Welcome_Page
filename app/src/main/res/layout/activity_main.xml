@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="220dp"
+        android:layout_height="79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="260dp"
+        android:text="Welcome"
+        android:textColor="#6750A3"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="375dp"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="461dp"
+        android:onClick="onclick"
+        android:text="Button" />
+</RelativeLayout>
